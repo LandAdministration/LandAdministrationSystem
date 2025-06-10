@@ -18,6 +18,44 @@
     </ul>
   </div>
 
+  <style>
+    .ol-popup {
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      padding: 15px;
+      min-width: 200px;
+      max-width: 300px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      border: 1px solid #ccc;
+    }
+    .ol-popup-closer {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .ol-popup-closer:hover {
+      color: #ff0000;
+    }
+    #popup-content {
+      margin-top: 10px;
+      line-height: 1.4;
+    }
+    #popup-content p {
+      margin: 5px 0;
+      color: #333;
+    }
+    #popup-content strong {
+      color: #000;
+    }
+  </style>
+
   <script src="resources/qgis2web_expressions.js"></script>
   <script src="./resources/functions.js"></script>
   <script src="./resources/ol.js"></script>
